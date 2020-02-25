@@ -24,3 +24,6 @@ hs_err_pid*
 
 # Ignore IDEA files
 .idea/
+.target/
+*.iml
+**/target/*
