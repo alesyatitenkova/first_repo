@@ -32,7 +32,7 @@ body{
     font-size: 14px;
     color: #252B42;
     font-weight: 500;
-    font-family: 'Monteserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 .wrapper{
     min-height: 100%;
@@ -45,4 +45,38 @@ body{
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
+}
+header{
+    background: url("../img/backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heder-top {
+    display: flex;
+    padding:36px 0;
+    align-items: center;
+}
+.header-top__logo {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-right: 132px;
+}
+.heder-menu {
+    display: flex;
+}
+.header-menu__item {
+    margin-right: 21px;
+}
+.heder-menu__link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.header-menu__item:last-child{
+    margin: 0;
 }
